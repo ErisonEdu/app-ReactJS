@@ -3,7 +3,7 @@ import { Router } from 'express';
 const routes = new Router();
 
 routes.get("/", (req, res) => {
-  return res.json({ message: " Hello Dev Erison " });
+  return res.json({ message: " Savage Fire " });
 });
 
 module.exports = routes;
